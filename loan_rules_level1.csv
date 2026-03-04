@@ -1,0 +1,4 @@
+section,rule_description,condition,decision,risk_level
+Loan,Small loan auto approved,amount <= 5000,APPROVED,Low
+Loan,Medium loan needs review,amount <= 20000,MANUAL_REVIEW,Medium
+Loan,High loan rejected,amount > 20000,REJECTED,High

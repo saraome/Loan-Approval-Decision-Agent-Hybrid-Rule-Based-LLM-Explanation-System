@@ -1,0 +1,6 @@
+section,rule_description,condition,decision,risk_level
+Loan,Small loan auto approved,amount <= 5000,APPROVED,Low
+Loan,Medium loan review,5000 < amount <= 20000,MANUAL_REVIEW,Medium
+Loan,High loan with low credit rejected,amount > 20000 AND credit_score < 700,REJECTED,High
+Loan,Very low credit score rejection,credit_score < 600,REJECTED,High
+Loan,Large loan with good credit needs review,amount > 20000 AND credit_score >= 700,MANUAL_REVIEW,Medium
